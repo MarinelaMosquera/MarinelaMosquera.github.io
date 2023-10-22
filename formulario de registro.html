@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="URF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registro</title>
+    </head>
+        <body>
+            <form action="" id="Formulario de registro" onsubmit="return enviar();">
+                <div>
+                  <label for="nombre">Nombre</label>
+                  <input
+                   type="text" 
+                   name="nombre" 
+                   id="nombre"
+                   placeholder=" " 
+                 />
+                </div>
+                <div>
+                    <label for="apellido">Apellidos</label>
+                    <input
+                     type="text" 
+                     name="Apellidos"
+                     id="apellido"
+                     placeholder=" ">
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input 
+                     type="text"
+                      name="Correo electrónico"
+                      id="email"
+                      placeholder=" ">
+                
+                </div>
+
+
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    placeholder="Ingresa tu contraseña">
+                </div>
+
+                <div>
+                    <select class ="input-style" id="genderSelect" name="gender">
+                    <option value=""> -selecione un género -</option>
+                    <option value="hombre">hombre</option>
+                    <option value="mujer">mujer</option>
+                    <option value="otro">otro</option>
+
+                </div>
+
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            
+            </form>
+
+            <script src="./javaScript/registro.js"></script>
+
+        </body>
+
+</html>
