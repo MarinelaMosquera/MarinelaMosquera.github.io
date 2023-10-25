@@ -6,7 +6,7 @@
         <title>Registro</title>
     </head>
         <body>
-            <form action="" id="Formulario de registro" onsubmit="return enviar();">
+            <form action="" id="Formulario de registro" onsubmit="return Registrarse();">
                 <div>
                   <label for="nombre">Nombre</label>
                   <input
@@ -53,26 +53,15 @@
 
                 </div>
 
-
+                
                 <div>
-                    <input type="submit" value="Enviar">
-                </div>
+                    <input type="submit" value="Registrarse" >
+                </div>   
+               
             
             </form>
 
-            <script type="text/javascript">
-              function enviar(){
-                const Nombre = document.getElementById('Nombre').value
-                const Apellidos = document.getElementById('Apellidos').value
-                const Correo = document.getElementById('Correo electrónico').value
-                const gender = document.getElementById('gender').value
-                const password = document.getElementById('Contraseña').value
-            
-                console.log(Nombre,Apellidos,Correo,gender,password);
-              }
-            
-            </script>
-
+            <script src="javaScript/registro.js"></script>
         </body>
 
 </html>
