@@ -1,0 +1,71 @@
+.banner {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px 0; position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: whitesmoke;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+   
+}
+
+.imagen_logo {
+   
+    height: 200px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+
+}
+.Imagen_logo2 {
+
+    height: 150px;
+    display: block;
+    margin: 20px auto; 
+    padding: 20px 0;
+    margin-right: 100px;
+
+}
+
+.text{
+     position: absolute; 
+     text-align: left;
+     text-align: center; 
+     padding-bottom: 20px;
+     top: 50%; 
+     left: 10%; 
+     transform: translate(-10%, -50%); 
+     width: 50%; 
+     text-align: left;
+   
+}
+
+.Texto_descuento {
+    font-size: calc(2*1.5vw);  
+     
+}
+
+.Texto_promocional {
+    font-size: calc(1.2*1.5vw);
+}
+
+.Comprar_ahora {
+    font-size: calc(1.2*1.5vw);
+    border-radius: 5px; 
+    background: purple;
+    border-color:#ce2032;  
+    height:44px; 
+    color: white;
+    width: 152px;
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 0;
+
+}
+
+  
