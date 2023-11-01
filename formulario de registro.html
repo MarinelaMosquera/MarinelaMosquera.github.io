@@ -6,7 +6,7 @@
         <title>Registro</title>
     </head>
         <body>
-            <form action="" id="miFormulario" onsubmit="return Registrarse();"></form>
+            <form action="" id="miFormulario">
                 <div id="Registrarse">
                   <label for="nombre">Nombre</label>
                   <input
@@ -21,14 +21,14 @@
                     <input
                      type="text" 
                      name="Apellidos"
-                     id="Apellido"
+                     id="Apellidos"
                      placeholder=" ">
                 </div>
                 <div id="Registrarse">
                     <label for="email">Correo electrónico</label>
                     <input 
                      type="text"
-                      name=" Email"
+                      name="Email"
                       id="Email"
                       placeholder=" ">
                 
@@ -39,13 +39,13 @@
                     <label for="password">Contraseña</label>
                     <input
                     type="text"
-                    name="password"
-                    id="Contraseña"
+                    name="Password"
+                    id="Password"
                     placeholder="Ingresa tu contraseña">
                 </div>
 
                 <div id="Registrarse">
-                    <select class ="input-style" id="genderSelect" name="gender">
+                    <select class ="input-style" id="Gender" name="Gender">
                     <option value=""> -selecione un género -</option>
                     <option value="hombre">hombre</option>
                     <option value="mujer">mujer</option>
@@ -55,14 +55,16 @@
 
                 
                 <div>
-                    <input type="submit" value="Registrarse" >
+                    <input type="submit" id="registro-boton" value="Registrarse" >
                 </div>   
                
             
             </form>
 
+            <script src="javaScript/formDataUtil.js"></script>
             <script src="javaScript/registro.js"></script>
             <script src="javaScript/regis.js"></script>
+            
         </body>
 
 </html>

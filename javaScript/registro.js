@@ -1,6 +1,10 @@
 var Registrarse = [];
 
-
+console.log('marinela');
+function registro(){
+    alert('marinela');
+    return true;
+}
 
 function addRegistrarse(Nombre,Apellido,Email,Contraseña,Gender){
     
@@ -31,7 +35,7 @@ function getRegistrarse(){
 
 }
 
-function localStoreRegistrarse(Registro){
-    localStorage.setItem('localRegistrarse', JSON.stringify(Registro));
+function localStoreRegistrarse(data){
+    localStorage.setItem('localRegistrarse', JSON.stringify(data));
 }
 
