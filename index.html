@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi proyecto </title>
+
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/navega.css">
 </head>
 <body>
-    <h1>Cori</h1>
 
-    <nav>
-        <ul>
-          <li><a href="menú de navegación.html">Menú de navegación</a></li>
-          <li><a href="Servicios(productos)/servicios.html">Servicios</a></li>
-          <li><a href="formulario de registro.html">Registrarse</a></li>
-          
-       </ul>
+    <nav class="Navegación">
+        <div class="nav">
+            <img src="imagenes.jpg/logo-2.jpg"  class="logo-2" alt="logo">
+            <div class="items-navegación">
+                <div class="Buscar">
+                    <input type="text" class="buscar-box" placeholder="Buscar productos">
+                    <button class="buscar-boton">Buscar</button>
+                </div>
+                <a href="#"><img src="imagenes.jpg/imagen-usuario.jpg" alt="imagen-logoUsuario"></a>
+                <a href="#"><img src="imagenes.jpg/carro-compra.jpg" alt="imagen-carroCompras"></a>
+            </div>
+        </div>
+        <div>
+             <ul class="links-navegación">
+                <li class="item-link"><a href="#" class="Link">Inicio</a></li>
+                <li class="item-link"><a href="Servicios(productos)/servicios.html" class="link">Productos</a></li>
+                <li class="item-link"><a href="Nosotros.html" class="link">Nosotros</a></li>
+                <li class="item-link"><a href="formulario de registro.html" class="link ">Registrarse</a></li>   
+            </ul>
+        </div>
     </nav>
+
+    <header class="banner-sección">
+        <div class="content">
+            <img src="imagenes.jpg/logo-2.jpg" class="logo" alt="">
+            <p class="sub-heading">Lo mejor de la colección</p>
+        </div>
+
+    </header>
 
 
     <footer>
@@ -31,5 +54,7 @@
     
         </div>
     </footer>
+
+    <script src="javaScript/navegación.js"></script>
 </body>
 </html>
