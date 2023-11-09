@@ -27,8 +27,8 @@ sorprendemos con todo lo que hacemos.</p>
         <a href="#" class="social-link">Privacidad</a>
     </div>
     <div>
-        <a href="#" class="social-link">instagram</a>
-        <a href="#" class="social-link">Facebook</a>
+        <a href="https://instagram.com/instempresaproyecto?igshid=MXI5bHlxODY4bDM3ag==" class="social-link">instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61552248096891&mibextid=ZbWKwL" class="social-link">Facebook</a>
     </div>
 </div>
 <p class="creditos-footer">Corita shop, tienda online</p>
