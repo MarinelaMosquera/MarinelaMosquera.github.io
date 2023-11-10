@@ -4,67 +4,72 @@
         <meta charset="URF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Registro</title>
+
+        <link rel="stylesheet" href="css/inicio.css">
     </head>
         <body>
-            <form action="" id="miFormulario">
-                <div id="Registrarse">
-                  <label for="nombre">Nombre</label>
-                  <input
-                   type="text" 
-                   name="Nombre" 
-                   id="Nombre"
-                   placeholder=" " 
-                 />
-                </div>
-                <div id="Registrarse">
-                    <label for="apellido">Apellidos</label>
+            <div id="registry-form-container" class="hidden-body">
+                <form id="miFormulario">
+                    <div id="Registrarse">
+                    <label for="nombre">Nombre</label>
                     <input
-                     type="text" 
-                     name="Apellidos"
-                     id="Apellidos"
-                     placeholder=" ">
-                </div>
-                <div id="Registrarse">
-                    <label for="email">Correo electrónico</label>
-                    <input 
-                     type="text"
-                      name="Email"
-                      id="Email"
-                      placeholder=" ">
+                    type="text" 
+                    name="Nombre" 
+                    id="Nombre"
+                    placeholder=" " 
+                    />
+                    </div>
+                    <div id="Registrarse">
+                        <label for="apellido">Apellidos</label>
+                        <input
+                        type="text" 
+                        name="Apellidos"
+                        id="Apellidos"
+                        placeholder=" ">
+                    </div>
+                    <div id="Registrarse">
+                        <label for="email">Correo electrónico</label>
+                        <input 
+                        type="text"
+                        name="Email"
+                        id="Email"
+                        placeholder=" ">
+                    
+                    </div>
+
+
+                    <div id="Registrarse">
+                        <label for="password">Contraseña</label>
+                        <input
+                        type="text"
+                        name="Password"
+                        id="Password"
+                        placeholder="Ingresa tu contraseña">
+                    </div>
+
+                    <div id="Registrarse">
+                        <select class ="input-style" id="Gender" name="Gender">
+                        <option value=""> -selecione un género -</option>
+                        <option value="hombre">hombre</option>
+                        <option value="mujer">mujer</option>
+                        <option value="otro">otro</option>
+
+                    </div>
+
+                    
+                    <div>
+                        <input type="submit" id="registro-boton" value="Registrarse" >
+                    </div>   
                 
-                </div>
-
-
-                <div id="Registrarse">
-                    <label for="password">Contraseña</label>
-                    <input
-                    type="text"
-                    name="Password"
-                    id="Password"
-                    placeholder="Ingresa tu contraseña">
-                </div>
-
-                <div id="Registrarse">
-                    <select class ="input-style" id="Gender" name="Gender">
-                    <option value=""> -selecione un género -</option>
-                    <option value="hombre">hombre</option>
-                    <option value="mujer">mujer</option>
-                    <option value="otro">otro</option>
-
-                </div>
-
                 
-                <div>
-                    <input type="submit" id="registro-boton" value="Registrarse" >
-                </div>   
-               
-            
-            </form>
+                </form>
+            </div>
 
             <script src="javaScript/formDataUtil.js"></script>
             <script src="javaScript/registro.js"></script>
-            <script src="javaScript/regis.js"></script>
-            
+            <script src="javaScript/assets/js/utilities/localstorageUtil.js"></script>
+            <script src="javaScript/assets/js/utilities/validateLoggedUserUtil.js"></script>
+           
         </body>
 
 </html>

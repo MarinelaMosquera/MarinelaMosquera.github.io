@@ -1,121 +1,178 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Vestidos</title>
+
+    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="../css/productos.css">
+
 </head>
 
 <body>
 
-    <h1>TODOS LOS VESTIDOS CUENTA CON UN 40% DE DESCUENTO!!</h1>
+    <nav class="Navegación"></nav>
 
+         <section class="detalles-productos">
+        <div class="imagen-slider-13">
+            <div class="producto-imagen">
+                <img src="../imagenes.jpg/img-13.jpg" class="active" alt="">
+                <img src="../imagenes.jpg/img-13a.jpg">
+            </div>
+        </div>
+        <div class="detalles">
+            <h2 class="marca-producto">Vestido corto</h2>
+            <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+            <span class="precio-producto">$90.000</span>
+            
+            <p class="productos-sub">seleccionar talla</p>
 
-  <div class="container">
-     <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-13.jpg" >
-        </figure>
-            <div class="Vestido">
-                <h3>Vestido largo brillante </h3>
-                <p class="Precio">120.000</p>
-                <p class="cabeza"><a href="../productos por unidad/vestido largo brilante.html">Ver</a></p>
+            <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+            <label for="xs-size" class="size-radio-boton check">XS</label>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-boton">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-boton">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l" class="size-radio-boton">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-boton">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-boton">XXL</label>
 
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
+            <div>
+            <button class="boton-card">Añadir al carrito</button>
+            <button class="boton-card">Añadir a la lista de deseo</button>
+            </div>
+         </div>
+        </section>
 
-                <div>
-                    <input type="submit" value="Añadir al carrito">
+        <section class="detalles-productos">
+            <div class="imagen-slider-14">
+                <div class="producto-imagen">
+                    <img src="../imagenes.jpg/img-14.jpg" class="active" alt="">
+                    <img src="../imagenes.jpg/img-14a.jpg">
                 </div>
             </div>
-   </div> 
-
-  <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-14.jpg" >
-        </figure>
-            <div class=" Vestidos">
-                <h3>Vestido corto brillante</h3>
-                <p>130.000</p>
-                <p class="cabeza"><a href="../productos por unidad/Vestido corto brillante.html">Ver</a></p>
-
+            <div class="detalles">
+                <h2 class="marca-producto">Vestido corto</h2>
+                <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+                <span class="precio-producto">$100.000</span>
+                
+                <p class="productos-sub">seleccionar talla</p>
+    
+                <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+                <label for="xs-size" class="size-radio-boton check">XS</label>
+                <input type="radio" name="size" value="s" hidden id="s-size">
+                <label for="s-size" class="size-radio-boton">S</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-boton">M</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l" class="size-radio-boton">L</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-boton">XL</label>
+                <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+                <label for="xxl-size" class="size-radio-boton">XXL</label>
+    
                 <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
+                <button class="boton-card">Añadir al carrito</button>
+                <button class="boton-card">Añadir a la lista de deseo</button>
                 </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-            </div> 
-  </div> 
-
-   <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-15.png" >
-        </figure>
-            <div class="Vestidos">
-                <h3>Vestido crochet</h3>
-                <p>110.000</p>
-
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-                <a href="../Productos/vestidos.html"></a>
             </div>
-   </div> 
+        </section>
+    
+        <section class="descripcion-producto">
+            <h2 class="heading">descripcion</h2>
+            <p class="descripcion">Material: algodón 100%</p>
+        </section>
 
-  <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-16.jpg" > 
-        </figure>
-            <div class="Vestidos">
-                <h3>Vestido métalico</h3>
-                <p>115.000</p>
-               
-
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option> 
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
+        <section class="detalles-productos">
+            <div class="imagen-slider-15">
+                <div class="producto-imagen">
+                    <img src="../imagenes.jpg/img-15.png" class="active" alt="">
+                    <img src="../imagenes.jpg/img-15a-png.jpg">
                 </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-                <a href="../Productos/vestidos.html"></a>
             </div>
-   </div> 
+            <div class="detalles">
+                <h2 class="marca-producto">Vestido corto</h2>
+                <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+                <span class="precio-producto">$90.000</span>
+                
+                <p class="productos-sub">seleccionar talla</p>
+    
+                <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+                <label for="xs-size" class="size-radio-boton check">XS</label>
+                <input type="radio" name="size" value="s" hidden id="s-size">
+                <label for="s-size" class="size-radio-boton">S</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-boton">M</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l" class="size-radio-boton">L</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-boton">XL</label>
+                <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+                <label for="xxl-size" class="size-radio-boton">XXL</label>
+    
+                <div>
+                <button class="boton-card">Añadir al carrito</button>
+                <button class="boton-card">Añadir a la lista de deseo</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="descripcion-producto">
+            <h2 class="heading">descripcion</h2>
+            <p class="descripcion">Material: algodón 100%</p>
+        </section>
+
+        <section class="detalles-productos">
+            <div class="imagen-slider-16">
+                <div class="producto-imagen">
+                    <img src="../imagenes.jpg/img-16.jpg" class="active" alt="">
+                    <img src="../imagenes.jpg/img-16a.jpg">
+                </div>
+            </div>
+            <div class="detalles">
+                <h2 class="marca-producto">Vestido corto</h2>
+                <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+                <span class="precio-producto">$90.000</span>
+                
+                <p class="productos-sub">seleccionar talla</p>
+    
+                <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+                <label for="xs-size" class="size-radio-boton check">XS</label>
+                <input type="radio" name="size" value="s" hidden id="s-size">
+                <label for="s-size" class="size-radio-boton">S</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-boton">M</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l" class="size-radio-boton">L</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-boton">XL</label>
+                <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+                <label for="xxl-size" class="size-radio-boton">XXL</label>
+    
+                <div>
+                    
+                <button class="boton-card"><a href="../Añadir al carrito/métodos de pago.html" >Añadir al carrito</a></button>
+                <button class="boton-card">Añadir a la lista de deseo</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="descripcion-producto">
+            <h2 class="heading">descripcion</h2>
+            <p class="descripcion">Material: algodón 100%</p>
+        </section>
+
+
+    <footer></footer>
+
+
+    <script src="../javaScript/navegación.js"></script>
+    <script src="../javaScript/footer.js"></script>
+    <script src="../javaScript/inicio.js"></script>
+    <script src="../javaScript/productos.js"></script>
 
 </body>
 </html>

@@ -3,117 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <title>Faldas</title>
+
+    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="../css/productos.css">
+
 </head>
 
 <body>
 
-  <div class="container">
-     <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-17.jpg" >
-        </figure>
-            <div class="Faldas">
-                <h3>Falda crochet </h3>
-                <p>100.000</p>
+    <nav class="Navegación"></nav>
 
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-                <a href="../Productos/faldas.html"></a>
+    <section class="detalles-productos">
+        <div class="imagen-slider-5">
+            <div class="producto-imagen">
+                <img src="../imagenes.jpg/img-17.jpg" class="active" alt="">
+                <img src="../imagenes.jpg/img-17a.jpg">
             </div>
-   </div> 
+        </div>
+        <div class="detalles">
+            <h2 class="marca-producto">Falda crochet</h2>
+            <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+            <span class="precio-producto">$120.000</span>
+            
+            <p class="productos-sub">seleccionar talla</p>
 
-  <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-10.jpg" >
-        </figure>
-            <div class=" Falda">
-                <h3>falda con apertura </h3>
-                <p>100.000</p>
+            <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+            <label for="xs-size" class="size-radio-boton check">XS</label>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-boton">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-boton">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l" class="size-radio-boton">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-boton">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-boton">XXL</label>
 
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-
-                <a href="../Productos/faldas.html"></a>
-            </div> 
-  </div> 
-
-   <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-11.jpg" >
-        </figure>
-            <div class="Falda">
-                <h3>Falda negra</h3>
-                <p>110.000</p>
-
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-                <a href="../Productos/faldas.html"></a>
+            <div>
+            <button class="boton-card">Añadir al carrito</button>
+            <button class="boton-card">Añadir a la lista de deseo</button>
             </div>
-   </div> 
+        </div>
+    </section>
 
-  <div class="card">
-        <figure>
-            <img src="../imagenes.jpg/img-12.jpg" >
-        </figure>
-            <div class="Falda">
-                <h3>Falda café </h3>
-                <p>115.000</p>
+    <section class="descripcion-producto">
+        <h2 class="heading">descripcion</h2>
+        <p class="descripcion">Material: poliester 95% elastano 5%</p>
+    </section>
 
-                <div>
-                    <select class = "tallaSelect" name="tallas">
-                    <option value=""> Selecionar talla </option> 
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                </div>
-
-                <div>
-                    <input type="submit" value="Añadir al carrito">
-                </div>
-
-                <a href="../Productos/faldas.html"></a>
-
+    <section class="detalles-productos">
+        <div class="imagen-slider-6">
+            <div class="producto-imagen">
+                <img src="../imagenes.jpg/img-10.jpg" class="active" alt="">
+                <img src="../imagenes.jpg/img-10a.jpg">
             </div>
-   </div> 
+        </div>
+        <div class="detalles">
+            <h2 class="marca-producto">Falda con apertura</h2>
+            <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+            <span class="precio-producto">$140.000</span>
+            
+            <p class="productos-sub">seleccionar talla</p>
 
+            <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+            <label for="xs-size" class="size-radio-boton check">XS</label>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-boton">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-boton">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l" class="size-radio-boton">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-boton">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-boton">XXL</label>
+
+            <div>
+            <button class="boton-card">Añadir al carrito</button>
+            <button class="boton-card">Añadir a la lista de deseo</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="descripcion-producto">
+        <h2 class="heading">descripcion</h2>
+        <p class="descripcion">Material: poliester 95% elastano 5%</p>
+    </section>
+
+    <section class="detalles-productos">
+        <div class="imagen-slider-7">
+            <div class="producto-imagen">
+                <img src="../imagenes.jpg/img-11.jpg" class="active" alt="">
+                <img src="../imagenes.jpg/img-11a.jpg">
+            </div>
+        </div>
+        <div class="detalles">
+            <h2 class="marca-producto">Falda negra larga</h2>
+            <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+            <span class="precio-producto">$140.000</span>
+            
+            <p class="productos-sub">seleccionar talla</p>
+
+            <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+            <label for="xs-size" class="size-radio-boton check">XS</label>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-boton">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-boton">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l" class="size-radio-boton">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-boton">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-boton">XXL</label>
+
+            <div>
+            <button class="boton-card">Añadir al carrito</button>
+            <button class="boton-card">Añadir a la lista de deseo</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="descripcion-producto">
+        <h2 class="heading">descripcion</h2>
+        <p class="descripcion">Material: poliester 95% elastano 5%</p>
+    </section>
+
+    <section class="detalles-productos">
+        <div class="imagen-slider-8">
+            <div class="producto-imagen">
+                <img src="../imagenes.jpg/img-12.jpg" class="active" alt="">
+                <img src="../imagenes.jpg/img-12a.jpg">
+            </div>
+        </div>
+        <div class="detalles">
+            <h2 class="marca-producto">Falda roja larga brillante</h2>
+            <p class="diseño-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos in, molestias similique natus quo officia maiores quaerat debitis! Minima amet consequuntur, quas impedit dignissimos ad itaque atque assumenda iusto?</p>
+            <span class="precio-producto">$140.000</span>
+            
+            <p class="productos-sub">seleccionar talla</p>
+
+            <input type="radio" name="size" value="xs" checked hidden id="xs-size">
+            <label for="xs-size" class="size-radio-boton check">XS</label>
+            <input type="radio" name="size" value="s" hidden id="s-size">
+            <label for="s-size" class="size-radio-boton">S</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-boton">M</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l" class="size-radio-boton">L</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-boton">XL</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-boton">XXL</label>
+
+            <div>
+            <button class="boton-card">Añadir al carrito</button>
+            <button class="boton-card">Añadir a la lista de deseo</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="descripcion-producto">
+        <h2 class="heading">descripcion</h2>
+        <p class="descripcion">Material: poliester 95% elastano 5%</p>
+    </section>
+
+    <footer></footer>
+
+
+    <script src="../javaScript/navegación.js"></script>
+    <script src="../javaScript/footer.js"></script>
+    <script src="../javaScript/inicio.js"></script>
+    <script src="../javaScript/productos.js"></script>
+ 
 </body>
 </html>
+
+
+
+
+
+
+
+  
+
+  

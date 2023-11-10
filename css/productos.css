@@ -9,7 +9,7 @@
     width: 500px;
     height: 500px;
     position: relative;
-    background-image: url(../imagenes.jpg/img-1.png);
+    background-image: url(../imagenes.jpg/img-1a.jpg.jpeg);
     background-size: cover;
 }
 
@@ -33,7 +33,106 @@
     width: 500px;
     height: 500px;
     position: relative;
-    background-image: url(../imagenes.jpg/img-3.jpg);
+    background-image: url(../imagenes.jpg/img-4.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-5{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-17.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-6{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-10.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-7{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-11.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-8{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-12.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-9{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-5.png);
+    background-size: cover;
+}
+
+
+.imagen-slider-10{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-6.jpg);
+    background-size: cover;
+}
+
+
+.imagen-slider-11{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-7.jpg);
+    background-size: cover;
+}
+
+
+.imagen-slider-12{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-8.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-13{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-13.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-14{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-14.jpg);
+    background-size: cover;
+}
+
+.imagen-slider-15{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-15.png);
+    background-size: cover;
+}
+
+.imagen-slider-16{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(../imagenes.jpg/img-16.jpg);
     background-size: cover;
 }
 

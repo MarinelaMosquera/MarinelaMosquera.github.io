@@ -1,6 +1,10 @@
 @import '../css/navega.css';
 @import '../css/footer.css';
 
+.hidden-body {
+    display: none;
+}
+
 .banner-sección{
     width: 100%;
     height: calc(100vh -120px);
