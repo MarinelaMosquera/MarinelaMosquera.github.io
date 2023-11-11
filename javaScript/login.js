@@ -1,7 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
+function getRegistrarse(){
+    var storeRegistro = localStorage.getItem('localRegistrarse');
+    if(storeRegistro == null){
+        Registrarse =[];
+    }else{
+        Registrarse = JSON.parse(storeRegistro);
+    }
 
-    validateLoggedUserUtil.validate('./../../index.html');
+    return Registrarse;
 
-    inventoryModule.loadInventory();
-    inventoryModule.initSaveItemForm();
-})
+}
