@@ -5,68 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Registro</title>
 
-        <link rel="stylesheet" href="css/inicio.css">
         <link rel="stylesheet" href="css/registro.css">
     </head>
         <body>
-
-            <div id="registry-form-container" class="hidden-body">
-                <form id="miFormulario">
-                    <div id="Registrarse">
-                    <label for="nombre">Nombre</label>
-                    <input
-                    type="text" 
-                    name="Nombre" 
-                    id="Nombre"
-                    placeholder=" " 
-                    />
-                    </div>
-                    <div id="Registrarse">
-                        <label for="apellido">Apellidos</label>
-                        <input
-                        type="text" 
-                        name="Apellidos"
-                        id="Apellidos"
-                        placeholder=" ">
-                    </div>
-                    <div id="Registrarse">
-                        <label for="email">Correo electrónico</label>
-                        <input 
-                        type="text"
-                        name="Email"
-                        id="Email"
-                        placeholder=" ">
+            <div class="testbox">
+                <h1>Registro</h1>
+                <div id="registry-form-container" class="hidden-body">
+                    <form id="miFormulario">
+                        <div class="formulario">
+                            <label for="nombre">Nombre</label>
+                            <input
+                            type="text" 
+                            name="Nombre" 
+                            id="Nombre"
+                            placeholder=" " 
+                            />
+                            
+                            <label for="apellido">Apellidos</label>
+                            <input
+                            type="text" 
+                            name="Apellidos"
+                            id="Apellidos"
+                            placeholder=" ">
+                            
+                            <label for="email">Correo electrónico</label>
+                            <input 
+                            type="text"
+                            name="Email"
+                            id="Email"
+                            placeholder=" ">
                     
-                    </div>
-
-
-                    <div id="Registrarse">
-                        <label for="password">Contraseña</label>
-                        <input
-                        type="text"
-                        name="Password"
-                        id="Password"
-                        placeholder="Ingresa tu contraseña">
-                    </div>
-
-                    <div id="Registrarse">
-                        <select class ="input-style" id="Gender" name="Gender">
-                        <option value=""> -selecione un género -</option>
-                        <option value="hombre">hombre</option>
-                        <option value="mujer">mujer</option>
-                        <option value="otro">otro</option>
-
-                    </div>
-
-                    
-                    <div>
-                        <input type="submit" id="registro-boton" value="Registrarse">
-                    </div>   
-                    <a href="index.html" class="Registrarse"></a>
-                    <a href="/login.html" class="link">ya tienes una cuenta? inica sesión aquí</a>
+                            <label for="password">Contraseña</label>
+                            <input
+                            type="text"
+                            name="Password"
+                            id="Password"
+                            placeholder="Ingresa tu contraseña">
                 
-                </form>
-            </div>
+                            <select class ="input-style" id="Gender" name="Gender">
+                            <option value=""> -selecione un género -</option>
+                            <option value="hombre">hombre</option>
+                            <option value="mujer">mujer</option>
+                            <option value="otro">otro</option>
+                        </div>
+
+                        
+                        <div>
+                            <input type="submit" id="registro-boton" value="Registrarse" class="button">
+                            <p> al registrarte aceptas nuestras condiciones y politica de privacidad </p>
+
+                            <p> ¿Ya tienes una cuenta?<a class="link" a href="./login.html"></a>
+                            <button> <label class="Crear">Iniciar sesion</label> </button>
+                        
+                    </form>
+                </div>
 
             <script src="javaScript/formDataUtil.js"></script>
             <script src="javaScript/registro.js"></script>
