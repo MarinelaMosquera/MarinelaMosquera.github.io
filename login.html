@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="stylesheet" href="css/inicio.css">
+
 </head>
 <body>
 
-    <div class="container">
-        <input type="text" name="Email" id="Email" placeholder="Email">
-        <input type="text" name="Password" id="Password" placeholder="Ingresa tu contraseña">
-        <button class="registro-boton">iniciar</button>
+    <div id="registry-form-container" class="hidden-body">
+        <form id="miFormulario">
+            <div class="loggin">
+                <label for="email">Correo electrónico</label>
+                <input type="text" name="Email" id="Email"placeholder=" ">
+                <label for="password">Contraseña</label>
+                <input type="text" name="Password" id="Password" placeholder="Ingresa tu contraseña">
+
+                <div>
+                <input type="button" id="registro-boton" value="Iniciar sesion" class="button" >
+                <div id="user-info"></div>
+
+            <p class="Cuenta nueva">¿No tienes una cuenta?<a href="formulario de registro.html">
+            <button> <label class="Crear">Crear una cuenta</label> </button>
+        </form>
     </div>
 
-    <p class="Cuenta nueva">¿No tienes una cuenta?<a href="formulario de registro.html">
-        <button> <label class="Crear">Crear una cuenta</label> </button>
-
-    <script src="javaScript/login.js"></script>
 </body>
 </html>

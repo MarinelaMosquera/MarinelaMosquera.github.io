@@ -1,10 +1,6 @@
 var Registrarse = [];
 
-console.log('marinela');
-function registro(){
-    alert('marinela');
-    return true;
-}
+
 
 function addRegistrarse(Nombre,Apellido,Email,Contraseña,Gender){
     
@@ -39,17 +35,16 @@ function localStoreRegistrarse(data){
     localStorage.setItem('localRegistrarse', JSON.stringify(data));
 }
 
-document.querySelector('#registro-boton').addEventListener('click', Registrarse);
 
 
-function Registrarse(evt) {
+function RegistrarseEvento(evt) {
     evt.preventDefault();
     let formRegistrarse = document.querySelector('#miFormulario');
     let nuevoUsuario = formDataUtil.formToObject(formRegistrarse);
     console.log(nuevoUsuario);
 
     localStoreRegistrarse(nuevoUsuario);
-    
+    window.location.replace('index.html');
     return false;
 }
 
@@ -57,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let containerId = 'div#registry-form-container';
     validateLoggedUserUtil.validate(containerId,'./index.html');
+    document.querySelector('#registro-boton').addEventListener('click', RegistrarseEvento);
 
-    
 
 })

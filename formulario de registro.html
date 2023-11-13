@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Registro</title>
 
-        <link rel="stylesheet" href="css/registro.css">
     </head>
         <body>
             <div class="testbox">
@@ -51,11 +50,13 @@
 
                         
                         <div>
-                            <input type="submit" id="registro-boton" value="Registrarse" class="button">
+                            <input type="button" id="registro-boton" value="Registrarse" class="button" >
                             <p> al registrarte aceptas nuestras condiciones y politica de privacidad </p>
+                            <div id="user-info"></div>
 
-                            <p> ¿Ya tienes una cuenta?<a class="link" a href="./login.html"></a>
+                            <p> ¿Ya tienes una cuenta?<a class="link" a href="login.html"></a>
                             <button> <label class="Crear">Iniciar sesion</label> </button>
+                        </div>
                         
                     </form>
                 </div>
@@ -64,6 +65,7 @@
             <script src="javaScript/registro.js"></script>
             <script src="javaScript/assets/js/utilities/localstorageUtil.js"></script>
             <script src="javaScript/assets/js/utilities/validateLoggedUserUtil.js"></script>
+            
         </body>
 
 </html>
